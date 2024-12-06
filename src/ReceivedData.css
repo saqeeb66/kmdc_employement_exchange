@@ -1,0 +1,156 @@
+/* Overall page background */
+body {
+    background-color: #e0f7fa; /* light blue background for consistency */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for the received data */
+  .received-data-container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* white background for data container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  /* Received Data Header */
+  .received-data-header {
+    padding: 20px;
+    background-color: #4CAF50; /* green background for header */
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Heading */
+  .received-data-container h2,
+  .received-data-header h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .search-bar input {
+    width: 250px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow-x: auto;
+  }
+  
+  /* Table Header */
+  th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 8px;
+    text-align: left;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  
+  /* Table Body */
+  td {
+    padding: 10px 8px;
+    text-align: left;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word;
+  }
+  
+  /* Table Rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Action Buttons */
+  button {
+    padding: 8px 12px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(132, 41, 41);
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: rgb(39, 41, 155);
+  }
+  
+  /* Responsive Table */
+  @media (max-width: 1200px) {
+    th, td {
+      font-size: 12px;
+    }
+  
+    .search-bar input {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* Make the table scrollable on smaller screens */
+    .received-data-container {
+      padding: 10px;
+    }
+  
+    table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    th, td {
+      padding: 8px 6px;
+      font-size: 12px;
+    }
+  
+    .search-bar input {
+      width: 150px;
+    }
+  }
+  
+  /* Styling for when the table has a lot of columns */
+  @media (max-width: 480px) {
+    .received-data-container {
+      padding: 5px;
+    }
+  
+    table {
+      width: 100%;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    th, td {
+      font-size: 10px;
+      padding: 6px 4px;
+    }
+  
+    .search-bar input {
+      width: 120px;
+    }
+  }
+  

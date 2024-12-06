@@ -1,0 +1,47 @@
+.response-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #28a745;
+  }
+  
+  ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .edit-button, .home-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .home-button {
+    background-color: #ffc107;
+    color: white;
+  }
+  

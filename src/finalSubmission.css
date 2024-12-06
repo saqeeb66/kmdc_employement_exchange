@@ -1,0 +1,27 @@
+/* finalSubmission.css */
+.final-submission-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .final-submission-container h2 {
+    color: green;
+  }
+  
+  .final-submission-container p {
+    font-size: 18px;
+  }
+  
+  .final-submission-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .final-submission-container button:hover {
+    background-color: #45a049;
+  }
+  
